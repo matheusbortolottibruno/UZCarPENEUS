@@ -15,6 +15,11 @@
     list-style: none;
     display: flex;
     align-items: center;
+    
+    
+}
+.black{
+   color: black;
 }
 
 .menu-links li{
