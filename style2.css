@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-principal{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.menu-links{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.menu-links li{
+    margin-left: 10px;
+    margin-right: 10px;;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+}
+
+.campo-pesquisar{
+    padding: 13px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    margin-right: 20px;
+}
+
+.pesquisar{
+    display: flex;
+    align-items: center;
+}
+
+.botao-pesquisar{
+    background-color: rgba(66, 0, 255, 0.8);
+    border-radius: 8px;
+    display: inline-block;
+    padding: 13px;
+}
