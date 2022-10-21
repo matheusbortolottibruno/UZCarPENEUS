@@ -1,37 +1,44 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.menu-principal{
-    display:flex;
+.menu-principal {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-   
+
 }
 
 
-.menu-links{
+.menu-links {
     list-style: none;
     display: flex;
     align-items: center;
-    
-    
-    
-}
-.black{
-   color: black;
-}
-
-.menu-links li{
     margin-left: 10px;
-    margin-right: 10px;
-    
+
+
+
+}
+
+.black {
+    color: black;
+}
+
+.menu-links {
+    margin-left: 10px;
+    margin-right: 80px;
+
+}
+
+.menu-links li {
+    margin-left: 50px;
+
 }
 
 
-.banner{
+.banner-pimcipal {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -39,25 +46,79 @@
     border-radius: 10px;
     margin-right: 70px;
     margin-left: 50px;
-    
-    
+
 }
 
-.campo-pesquisar{
-    padding: 13px;
-    border-radius: 5px;
-    border: 2px solid rgba(0, 0, 0, 0.4);
+.coluna-banner-esquerda {
+    margin-left: 50px;
+    width: 627px;
+    height: 159px;
+
+
+
+}
+
+.banner {
+    width: 627px;
+    height: 159px;
+    left: 141px;
+    top: 231px;
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 41px;
+    line-height: 53px;
+
+    color: #000000;
+
+}
+
+.p {
+    width: 627px;
+    height: 159px;
+    font-size: 20px;
     margin-right: 30px;
 }
 
-.pesquisar{
-    display: flex;
-    align-items: center;
+.campo-pesquisar {
+    padding: 13px;
+    border-radius: 5px;
+    border: 2px solid rgba(0, 0, 0, 0.4);
+    width: 400px;
+
+
+
 }
 
-.botao-pesquisar{
+.pesquisar {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-top: 30px;
+
+}
+
+.botao-pesquisar {
     background-color: rgba(66, 0, 255, 0.8);
     border-radius: 8px;
     display: inline-block;
     padding: 13px;
+    margin-left: 20px;
+}
+
+.acessorio {
+    margin-left: 50px;
+    position: absolute;
+    width: 142px;
+    height: 129px;
+    border-radius: 4px 0px 0px 4px;
+
+}
+
+.geral-acessorio {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
 }
