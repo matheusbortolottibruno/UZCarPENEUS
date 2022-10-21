@@ -117,8 +117,22 @@
 }
 
 .geral-acessorio {
+   
     list-style: none;
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 10px;
+}
+.acessorio2{
+width: 171px;
+height: 23px;
+list-style: none;
+display: flex;
+align-items: center;
+margin-left: 10px;
+
+
+color: #000000;
+
+
 }
